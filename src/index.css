@@ -10,7 +10,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Green and black tech palette */
+    /* Oxford blue palette */
     --background: 0 0% 98%;
     --foreground: 0 0% 8%;
 
@@ -20,40 +20,40 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 8%;
 
-    /* Electric green as primary */
-    --primary: 120 100% 35%;
+    /* Oxford blue as primary */
+    --primary: 214 68% 24%;
     --primary-foreground: 0 0% 98%;
 
-    /* Light backgrounds with subtle green tint */
-    --secondary: 120 10% 96%;
+    /* Light backgrounds with subtle blue tint */
+    --secondary: 214 28% 95%;
     --secondary-foreground: 0 0% 8%;
 
-    /* Muted with green undertones */
-    --muted: 120 8% 95%;
-    --muted-foreground: 120 5% 45%;
+    /* Muted with blue undertones */
+    --muted: 214 20% 94%;
+    --muted-foreground: 214 14% 40%;
 
-    /* Bright lime accent for contrast */
-    --accent: 75 100% 50%;
-    --accent-foreground: 0 0% 8%;
+    /* Steel blue accent for contrast */
+    --accent: 209 85% 56%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 120 15% 88%;
-    --input: 120 15% 88%;
-    --ring: 120 100% 35%;
+    --border: 214 22% 86%;
+    --input: 214 22% 86%;
+    --ring: 214 68% 24%;
 
-    /* Green tech gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(120 100% 35%), hsl(130 100% 40%));
-    --gradient-accent: linear-gradient(135deg, hsl(75 100% 50%), hsl(85 100% 55%));
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 98%), hsl(120 10% 96%));
-    --gradient-tech: linear-gradient(135deg, hsl(120 100% 35%), hsl(75 100% 50%));
-    --gradient-matrix: linear-gradient(135deg, hsl(0 0% 8%), hsl(120 100% 35%));
+    /* Oxford blue gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(214 68% 24%), hsl(219 78% 33%));
+    --gradient-accent: linear-gradient(135deg, hsl(209 85% 56%), hsl(221 83% 62%));
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 98%), hsl(214 28% 95%));
+    --gradient-tech: linear-gradient(135deg, hsl(214 68% 24%), hsl(209 85% 56%));
+    --gradient-matrix: linear-gradient(135deg, hsl(0 0% 8%), hsl(214 68% 24%));
 
-    /* Green-tinted shadows */
-    --shadow-soft: 0 2px 20px -5px hsl(120 100% 35% / 0.15);
-    --shadow-medium: 0 8px 30px -8px hsl(120 100% 35% / 0.2);
-    --shadow-large: 0 20px 40px -12px hsl(120 100% 35% / 0.25);
+    /* Blue-tinted shadows */
+    --shadow-soft: 0 2px 20px -5px hsl(214 68% 24% / 0.15);
+    --shadow-medium: 0 8px 30px -8px hsl(214 68% 24% / 0.2);
+    --shadow-large: 0 20px 40px -12px hsl(214 68% 24% / 0.25);
 
     /* Smooth transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -79,41 +79,41 @@ All colors MUST be HSL.
   }
 
   .dark {
-    /* Matrix-style dark mode with green on black */
+    /* Dark mode with Oxford blue on near-black */
     --background: 0 0% 3%;
-    --foreground: 120 100% 85%;
+    --foreground: 210 100% 90%;
 
     --card: 0 0% 6%;
-    --card-foreground: 120 100% 85%;
+    --card-foreground: 210 100% 90%;
 
     --popover: 0 0% 6%;
-    --popover-foreground: 120 100% 85%;
+    --popover-foreground: 210 100% 90%;
 
-    /* Bright electric green for dark backgrounds */
-    --primary: 120 100% 50%;
-    --primary-foreground: 0 0% 3%;
+    /* Bright Oxford blue for dark backgrounds */
+    --primary: 214 90% 64%;
+    --primary-foreground: 222 100% 8%;
 
-    --secondary: 120 30% 8%;
-    --secondary-foreground: 120 100% 85%;
+    --secondary: 214 34% 11%;
+    --secondary-foreground: 210 100% 90%;
 
-    --muted: 120 20% 6%;
-    --muted-foreground: 120 50% 70%;
+    --muted: 214 26% 8%;
+    --muted-foreground: 214 40% 72%;
 
-    /* Bright lime accent for dark mode */
-    --accent: 75 100% 60%;
-    --accent-foreground: 0 0% 3%;
+    /* Bright blue accent for dark mode */
+    --accent: 209 90% 62%;
+    --accent-foreground: 222 100% 8%;
 
-    /* Matrix-style dark gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(120 100% 50%), hsl(130 100% 55%));
-    --gradient-accent: linear-gradient(135deg, hsl(75 100% 60%), hsl(85 100% 65%));
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 3%), hsl(120 30% 5%));
-    --gradient-tech: linear-gradient(135deg, hsl(120 100% 50%), hsl(75 100% 60%));
-    --gradient-matrix: linear-gradient(135deg, hsl(0 0% 3%), hsl(120 100% 50%));
+    /* Oxford blue dark gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(214 90% 64%), hsl(221 92% 70%));
+    --gradient-accent: linear-gradient(135deg, hsl(209 90% 62%), hsl(224 90% 68%));
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 3%), hsl(214 34% 8%));
+    --gradient-tech: linear-gradient(135deg, hsl(214 90% 64%), hsl(209 90% 62%));
+    --gradient-matrix: linear-gradient(135deg, hsl(0 0% 3%), hsl(214 90% 64%));
 
-    /* Glowing green shadows */
-    --shadow-soft: 0 2px 20px -5px hsl(120 100% 50% / 0.3);
-    --shadow-medium: 0 8px 30px -8px hsl(120 100% 50% / 0.4);
-    --shadow-large: 0 20px 40px -12px hsl(120 100% 50% / 0.5);
+    /* Glowing blue shadows */
+    --shadow-soft: 0 2px 20px -5px hsl(214 90% 64% / 0.3);
+    --shadow-medium: 0 8px 30px -8px hsl(214 90% 64% / 0.4);
+    --shadow-large: 0 20px 40px -12px hsl(214 90% 64% / 0.5);
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;

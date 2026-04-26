@@ -43,7 +43,7 @@ export function About() {
                         <Icon className="h-6 w-6 text-accent-foreground" />
                       </div>
                       <h3 className="font-bold text-lg mb-2">{highlight.title}</h3>
-                      <p className="text-sm text-muted-foreground">{t(`about.highlights.${highlight.description.toLowerCase().replace(/\s+/g, '')}`)}</p>
+                      <p className="text-sm text-muted-foreground">{highlight.description}</p>
                     </CardContent>
                   </Card>
                 );

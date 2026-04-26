@@ -26,7 +26,7 @@ export function Skills() {
               >
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-6 text-center bg-gradient-accent bg-clip-text text-transparent">
-                    {t(`skills.${category.title.toLowerCase().replace(/\s+/g, '').replace(/&/g, '')}`)}
+                    {category.title}
                   </h3>
                   
                   <div className="space-y-4">

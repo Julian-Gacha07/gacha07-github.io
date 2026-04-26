@@ -73,36 +73,36 @@ export interface PortfolioConfig {
 const content = {
   en: {
     personal: {
-      name: "Joane Smith",
-      title: "Software Engineer",
-      subtitle: "Building elegant solutions with modern technologies",
+      name: "Julian Gacha",
+      title: "Senior, Deal Advisory",
+      subtitle: "Accounting and corporate finance professional with 8+ years of experience, including 5+ years in M&A—supporting buyers and sellers as a senior expert in due diligence, valuation, restructuring, consulting, and project evaluation.",
       greeting: "Hello, I'm",
       profilePhoto: "/profile-photo.png",
       cvUrl: "/path-to-cv.pdf"
     },
     about: {
-      description: "I'm a passionate software engineer with over 5 years of experience building web applications and digital solutions. I specialize in React, TypeScript, and modern web technologies, with a focus on creating user-friendly, scalable, and maintainable applications.",
-      experience: "My journey in software development started with a curiosity about how things work behind the scenes. Today, I help businesses transform their ideas into digital reality, working with cross-functional teams to deliver high-quality software solutions.",
+      description: "I am a Senior professional in Deal Advisory with more than eight years of experience in accounting and financial matters, and five years focused on M&A and corporate finance. I work with both buyers and sellers, bringing a structured, analytical approach to complex transactions and strategic decisions.",
+      experience: "My practice spans financial due diligence, valuation, restructuring, advisory mandates, and project appraisal—helping stakeholders understand risks, quality of earnings, and value drivers so they can negotiate and execute with confidence.",
       highlights: [
         {
-          icon: "Code2",
-          title: "5+ Years",
-          description: "Professional Experience"
+          icon: "Briefcase",
+          title: "8+ Years",
+          description: "Professional experience in accounting and financial advisory"
         },
         {
-          icon: "Users",
-          title: "20+ Projects",
-          description: "Successfully Delivered"
+          icon: "Handshake",
+          title: "5+ Years M&A",
+          description: "Corporate finance and M&A for buyers and sellers"
         },
         {
-          icon: "Lightbulb",
-          title: "Modern Tech",
-          description: "Latest Technologies"
+          icon: "FileSearch",
+          title: "Due diligence & valuation",
+          description: "Deep dives on financial, tax, and operational matters linked to deals"
         },
         {
-          icon: "Award",
-          title: "Quality Focus",
-          description: "Best Practices"
+          icon: "Scale",
+          title: "Restructuring & projects",
+          description: "Restructuring, consulting, and evaluation of investment projects"
         }
       ]
     },
@@ -135,79 +135,74 @@ const content = {
     skills: {
       categories: [
         {
-          title: "Frontend",
+          title: "Financial & transaction advisory",
           skills: [
-            { name: "React", level: 95 },
-            { name: "TypeScript", level: 90 },
-            { name: "Next.js", level: 85 },
-            { name: "Tailwind CSS", level: 88 },
-            { name: "Vue.js", level: 75 }
+            { name: "M&A and corporate finance", level: 92 },
+            { name: "Financial due diligence", level: 93 },
+            { name: "Valuation (DCF, multiples, scenarios)", level: 90 },
+            { name: "Financial modeling & forecasting", level: 91 },
+            { name: "Restructuring & project evaluation", level: 88 }
           ]
         },
         {
-          title: "Backend",
+          title: "Python, ML & deep learning",
           skills: [
-            { name: "Node.js", level: 88 },
-            { name: "Python", level: 82 },
-            { name: "PostgreSQL", level: 85 },
-            { name: "MongoDB", level: 80 },
-            { name: "GraphQL", level: 78 }
+            { name: "Python", level: 88 },
+            { name: "Machine learning", level: 82 },
+            { name: "Deep learning", level: 78 }
           ]
         },
         {
-          title: "Tools & Others",
+          title: "Data & productivity",
           skills: [
-            { name: "AWS", level: 85 },
-            { name: "Docker", level: 82 },
-            { name: "Git", level: 92 },
-            { name: "Jest", level: 88 },
-            { name: "Figma", level: 75 }
+            { name: "SQL", level: 86 },
+            { name: "Advanced Excel", level: 94 }
           ]
         }
       ],
       technologies: [
-        "React", "TypeScript", "Node.js", "AWS", "Docker", "PostgreSQL", 
-        "MongoDB", "GraphQL", "Jest", "Tailwind CSS", "Next.js", "Vue.js"
+        "Python", "Machine learning", "Deep learning", "SQL", "Advanced Excel",
+        "M&A", "Due diligence", "Valuation", "Financial modeling", "IFRS / GAAP"
       ]
     },
     meta: {
-      title: "Joane Smith - Software Engineer",
-      description: "Personal portfolio of Joane Smith, a software engineer specializing in React, TypeScript, and modern web technologies.",
-      keywords: ["software engineer", "react", "typescript", "web development", "portfolio"]
+      title: "Julian Gacha - Senior Deal Advisory",
+      description: "Senior Deal Advisory with 8+ years in accounting and finance and 5+ years in M&A and corporate finance—due diligence, valuation, restructuring, consulting, and project evaluation for buyers and sellers.",
+      keywords: ["deal advisory", "M&A", "due diligence", "valuation", "corporate finance", "restructuring", "financial consulting", "portfolio"]
     }
   },
   es: {
     personal: {
-      name: "Joane Smith",
-      title: "Ingeniera de Software",
-      subtitle: "Construyendo soluciones elegantes con tecnologías modernas",
+      name: "Julian Gacha",
+      title: "Senior, Deal Advisory",
+      subtitle: "Profesional en contabilidad y finanzas corporativas con más de 8 años de experiencia, incluyendo 5 años en M&A—acompañando a compradores y vendedores como consultor senior en due diligence, valoración, reestructuración, consultoría y evaluación de proyectos.",
       greeting: "Hola, soy",
       profilePhoto: "/profile-photo.png",
       cvUrl: "/path-to-cv.pdf"
     },
     about: {
-      description: "Soy una ingeniera de software apasionada con más de 5 años de experiencia construyendo aplicaciones web y soluciones digitales. Me especializo en React, TypeScript y tecnologías web modernas, con un enfoque en crear aplicaciones amigables, escalables y mantenibles.",
-      experience: "Mi viaje en el desarrollo de software comenzó con la curiosidad sobre cómo funcionan las cosas detrás de escena. Hoy, ayudo a las empresas a transformar sus ideas en realidad digital, trabajando con equipos multifuncionales para entregar soluciones de software de alta calidad.",
+      description: "Soy Senior en Deal Advisory con más de ocho años de experiencia profesional en temas contables y financieros, y cinco años enfocados en M&A y finanzas corporativas. Apoyo tanto a compradores como a vendedores, actuando como consultor senior experto en procesos de transacción y análisis financiero.",
+      experience: "Mi trabajo cubre due diligence, valoración, reestructuración, consultoría y evaluación de proyectos—ayudando a las partes a entender riesgos, calidad de resultados y drivers de valor para decidir y ejecutar con mayor certeza.",
       highlights: [
         {
-          icon: "Code2",
-          title: "5+ Años",
-          description: "Experiencia Profesional"
+          icon: "Briefcase",
+          title: "8+ Años",
+          description: "Experiencia profesional en contabilidad y asesoría financiera"
         },
         {
-          icon: "Users",
-          title: "20+ Proyectos",
-          description: "Entregados Exitosamente"
+          icon: "Handshake",
+          title: "5+ Años M&A",
+          description: "Finanzas corporativas y M&A para compradores y vendedores"
         },
         {
-          icon: "Lightbulb",
-          title: "Tecnología Moderna",
-          description: "Últimas Tecnologías"
+          icon: "FileSearch",
+          title: "Due diligence y valoración",
+          description: "Análisis profundo de aspectos financieros, fiscales y operativos ligados a operaciones"
         },
         {
-          icon: "Award",
-          title: "Enfoque en Calidad",
-          description: "Mejores Prácticas"
+          icon: "Scale",
+          title: "Reestructuración y proyectos",
+          description: "Reestructuración, consultoría y evaluación de proyectos de inversión"
         }
       ]
     },
@@ -240,94 +235,87 @@ const content = {
     skills: {
       categories: [
         {
-          title: "Frontend",
+          title: "Asesoría financiera y transacciones",
           skills: [
-            { name: "React", level: 95 },
-            { name: "TypeScript", level: 90 },
-            { name: "Next.js", level: 85 },
-            { name: "Tailwind CSS", level: 88 },
-            { name: "Vue.js", level: 75 }
+            { name: "M&A y finanzas corporativas", level: 92 },
+            { name: "Due diligence financiero", level: 93 },
+            { name: "Valoración (DCF, múltiplos, escenarios)", level: 90 },
+            { name: "Modelamiento financiero y proyecciones", level: 91 },
+            { name: "Reestructuración y evaluación de proyectos", level: 88 }
           ]
         },
         {
-          title: "Backend",
+          title: "Python, ML y deep learning",
           skills: [
-            { name: "Node.js", level: 88 },
-            { name: "Python", level: 82 },
-            { name: "PostgreSQL", level: 85 },
-            { name: "MongoDB", level: 80 },
-            { name: "GraphQL", level: 78 }
+            { name: "Python", level: 88 },
+            { name: "Machine learning", level: 82 },
+            { name: "Deep learning", level: 78 }
           ]
         },
         {
-          title: "Herramientas y Otros",
+          title: "Datos y productividad",
           skills: [
-            { name: "AWS", level: 85 },
-            { name: "Docker", level: 82 },
-            { name: "Git", level: 92 },
-            { name: "Jest", level: 88 },
-            { name: "Figma", level: 75 }
+            { name: "SQL", level: 86 },
+            { name: "Excel avanzado", level: 94 }
           ]
         }
       ],
       technologies: [
-        "React", "TypeScript", "Node.js", "AWS", "Docker", "PostgreSQL", 
-        "MongoDB", "GraphQL", "Jest", "Tailwind CSS", "Next.js", "Vue.js"
+        "Python", "Machine learning", "Deep learning", "SQL", "Excel avanzado",
+        "M&A", "Due diligence", "Valoración", "Modelamiento financiero", "IFRS / GAAP"
       ]
     },
     meta: {
-      title: "Joane Smith - Ingeniera de Software",
-      description: "Portfolio personal de Joane Smith, una ingeniera de software especializada en React, TypeScript y tecnologías web modernas.",
-      keywords: ["ingeniera de software", "react", "typescript", "desarrollo web", "portfolio"]
+      title: "Julian Gacha - Senior Deal Advisory",
+      description: "Senior Deal Advisory con más de 8 años en contabilidad y finanzas y 5 años en M&A y finanzas corporativas—due diligence, valoración, reestructuración, consultoría y evaluación de proyectos para compradores y vendedores.",
+      keywords: ["deal advisory", "M&A", "due diligence", "valoración", "finanzas corporativas", "reestructuración", "consultoría financiera", "portfolio"]
     }
   }
 };
 
 export const portfolioConfig: PortfolioConfig = {
   personal: {
-    name: "Joane Smith",
-    title: "Software Engineer",
-    subtitle: "Building elegant solutions with modern technologies",
+    name: "Julian Gacha",
+    title: "Senior, Deal Advisory",
+    subtitle: "Accounting and corporate finance professional with 8+ years of experience, including 5+ years in M&A—supporting buyers and sellers as a senior expert in due diligence, valuation, restructuring, consulting, and project evaluation.",
     greeting: "Hello, I'm",
     profilePhoto: "/profile-photo.png",
     cvUrl: "/path-to-cv.pdf"
   },
 
   contact: {
-    email: "joane.smith@example.com",
-    phone: "+1 (555) 123-4567",
-    location: "San Francisco, CA",
+    email: "julian.gacha2000@gmail.com",
+    phone: "+57 (314 380 4780)",
+    location: "Bogotá, Colombia",
     social: {
-      github: "https://github.com/joanesmith",
-      linkedin: "https://linkedin.com/in/joanesmith",
-      twitter: "https://twitter.com/joanesmith",
-      instagram: "https://instagram.com/joanesmith"
+      github: "https://github.com/Julian-Gacha07",
+      linkedin: "https://www.linkedin.com/in/julian-gacha-505507177/",
     }
   },
 
   about: {
-    description: "I'm a passionate software engineer with over 5 years of experience building web applications and digital solutions. I specialize in React, TypeScript, and modern web technologies, with a focus on creating user-friendly, scalable, and maintainable applications.",
-    experience: "My journey in software development started with a curiosity about how things work behind the scenes. Today, I help businesses transform their ideas into digital reality, working with cross-functional teams to deliver high-quality software solutions.",
+    description: "I am a Senior professional in Deal Advisory with more than eight years of experience in accounting and financial matters, and five years focused on M&A and corporate finance. I work with both buyers and sellers, bringing a structured, analytical approach to complex transactions and strategic decisions.",
+    experience: "My practice spans financial due diligence, valuation, restructuring, advisory mandates, and project appraisal—helping stakeholders understand risks, quality of earnings, and value drivers so they can negotiate and execute with confidence.",
     highlights: [
       {
-        icon: "Code2",
-        title: "5+ Years",
-        description: "Professional Experience"
+        icon: "Briefcase",
+        title: "8+ Years",
+        description: "Professional experience in accounting and financial advisory"
       },
       {
-        icon: "Users",
-        title: "20+ Projects",
-        description: "Successfully Delivered"
+        icon: "Handshake",
+        title: "5+ Years M&A",
+        description: "Corporate finance and M&A for buyers and sellers"
       },
       {
-        icon: "Lightbulb",
-        title: "Modern Tech",
-        description: "Latest Technologies"
+        icon: "FileSearch",
+        title: "Due diligence & valuation",
+        description: "Deep dives on financial, tax, and operational matters linked to deals"
       },
       {
-        icon: "Award",
-        title: "Quality Focus",
-        description: "Best Practices"
+        icon: "Scale",
+        title: "Restructuring & projects",
+        description: "Restructuring, consulting, and evaluation of investment projects"
       }
     ]
   },
@@ -362,39 +350,34 @@ export const portfolioConfig: PortfolioConfig = {
   skills: {
     categories: [
       {
-        title: "Frontend",
+        title: "Financial & transaction advisory",
         skills: [
-          { name: "React", level: 95 },
-          { name: "TypeScript", level: 90 },
-          { name: "Next.js", level: 85 },
-          { name: "Tailwind CSS", level: 88 },
-          { name: "Vue.js", level: 75 }
+          { name: "M&A and corporate finance", level: 92 },
+          { name: "Financial due diligence", level: 93 },
+          { name: "Valuation (DCF, multiples, scenarios)", level: 90 },
+          { name: "Financial modeling & forecasting", level: 91 },
+          { name: "Restructuring & project evaluation", level: 88 }
         ]
       },
       {
-        title: "Backend",
+        title: "Python, ML & deep learning",
         skills: [
-          { name: "Node.js", level: 88 },
-          { name: "Python", level: 82 },
-          { name: "PostgreSQL", level: 85 },
-          { name: "MongoDB", level: 80 },
-          { name: "GraphQL", level: 78 }
+          { name: "Python", level: 88 },
+          { name: "Machine learning", level: 82 },
+          { name: "Deep learning", level: 78 }
         ]
       },
       {
-        title: "Tools & Others",
+        title: "Data & productivity",
         skills: [
-          { name: "AWS", level: 85 },
-          { name: "Docker", level: 82 },
-          { name: "Git", level: 92 },
-          { name: "Jest", level: 88 },
-          { name: "Figma", level: 75 }
+          { name: "SQL", level: 86 },
+          { name: "Advanced Excel", level: 94 }
         ]
       }
     ],
     technologies: [
-      "React", "TypeScript", "Node.js", "AWS", "Docker", "PostgreSQL", 
-      "MongoDB", "GraphQL", "Jest", "Tailwind CSS", "Next.js", "Vue.js"
+      "Python", "Machine learning", "Deep learning", "SQL", "Advanced Excel",
+      "M&A", "Due diligence", "Valuation", "Financial modeling", "IFRS / GAAP"
     ]
   },
 
@@ -404,9 +387,9 @@ export const portfolioConfig: PortfolioConfig = {
   },
 
   meta: {
-    title: "Joane Smith - Software Engineer",
-    description: "Personal portfolio of Joane Smith, a software engineer specializing in React, TypeScript, and modern web technologies.",
-    keywords: ["software engineer", "react", "typescript", "web development", "portfolio"]
+    title: "Julian Gacha - Senior Deal Advisory",
+    description: "Senior Deal Advisory with 8+ years in accounting and finance and 5+ years in M&A and corporate finance—due diligence, valuation, restructuring, consulting, and project evaluation for buyers and sellers.",
+    keywords: ["deal advisory", "M&A", "due diligence", "valuation", "corporate finance", "restructuring", "financial consulting", "portfolio"]
   }
 };
 
