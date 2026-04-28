@@ -3,6 +3,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react';
 import { portfolioConfig } from '@/config/portfolio';
 import { usePortfolioContent } from '@/hooks/use-portfolio-content';
+import { publicAsset } from '@/lib/public-asset';
 
 export function Hero() {
   const { t } = useLanguage();
@@ -47,7 +48,7 @@ export function Hero() {
                   className="border-primary/20 hover:bg-primary/5"
                   asChild
                 >
-                  <a href={personal.cvUrl} target="_blank" rel="noopener noreferrer">
+                  <a href={publicAsset(personal.cvUrl)} target="_blank" rel="noopener noreferrer">
                     {t('home.downloadCv')}
                   </a>
                 </Button>
@@ -86,7 +87,7 @@ export function Hero() {
             <div className="relative">
               <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-large animate-float">
                 <img 
-                  src={personal.profilePhoto} 
+                  src={publicAsset(personal.profilePhoto)} 
                   alt={personal.name} 
                   className="w-full h-full object-cover"
                 />
